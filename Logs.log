@@ -1,0 +1,6 @@
+[INFO ] 2019-04-22 20:32:52,881 com.belyaev.controller.DialogController - Application is launched
+[INFO ] 2019-04-22 20:33:01,147 com.belyaev.controller.UserController - Method 'createNewUser' invocation. Input object - 'User' with properties( name: Alexander; surname: Belyaev; nikname: sandr1394 )
+[INFO ] 2019-04-22 20:33:01,173 com.belyaev.service.UserService - Method 'createUser' invocation
+[INFO ] 2019-04-22 20:33:04,990 com.belyaev.controller.DialogController - Method 'createNewDialog' invocation. Input object - 'Dialog' with properties( userID: 1; timeDateOfCreation: 2018-04-13T18:07:33 )
+[INFO ] 2019-04-22 20:33:05,006 com.belyaev.service.DialogService - Method 'createDialog' invocation
+[INFO ] 2019-04-22 20:33:05,022 com.belyaev.service.UserDialogLinkService - Method 'createLink' invocation

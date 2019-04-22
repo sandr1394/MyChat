@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database: postgresql
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate:
+        ddl-auto: create
+    properties:
+  datasource:
+      url: jdbc:postgresql://localhost:9999/chat_db
+      platform: postgres
+      username: root
+      password: root
+server:
+  port: 8085
